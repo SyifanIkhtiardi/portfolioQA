@@ -64,14 +64,3 @@ npm run build
 # 4. Preview production build
 npm run preview
 ```
-
----
-
-## Customisation
-
-All content lives in **`src/data/portfolio.js`** — edit that single file to update
-nav links, bio text, experience, skills, projects, and contact details.
-
-Animation presets are in **`src/hooks/useGsapReveal.js`**.  
-Design tokens (colors, fonts, spacing) are in **`tailwind.config.js`** and
-**`src/styles/globals.css`**.
