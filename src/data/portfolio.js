@@ -123,6 +123,15 @@ export const PROJECTS = [
     link:   'https://github.com/SyifanIkhtiardi/cypress-themoviedb.org',
     linkLabel: 'View on GitHub',
   },
+  {
+    index:  '02',
+    type:   'Performance Testing',
+    name:   'k6 Performance Testing — Moodle Exam System',
+    desc:   'Built a k6 load testing suite simulating 1,000 concurrent students on a Moodle exam platform — covering full login-to-submit flow with CSRF handling, custom SLO thresholds, and real-time Grafana dashboards via InfluxDB.',
+    tech:   ['k6', 'JavaScript', 'Grafana', 'InfluxDB 1.8', 'Docker Compose', 'Moodle LMS'],
+    link:   'https://github.com/SyifanIkhtiardi/k6_performnce_test_moodle',
+    linkLabel: 'View on GitHub',
+  },
 ]
 
 // ─── Contact ──────────────────────────────────────────────────────────────────
