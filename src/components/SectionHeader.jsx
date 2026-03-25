@@ -1,11 +1,14 @@
-/**
- * Consistent section header row used across all sections.
- */
-export default function SectionHeader({ label, num }) {
+// ─────────────────────────────────────────────────────────────────────────────
+// components/SectionHeader.jsx
+// Reusable section header: vertical number + title + gradient rule line.
+// ─────────────────────────────────────────────────────────────────────────────
+
+export default function SectionHeader({ num, title }) {
   return (
-    <div className="sec-row">
-      <span className="sec-label">{label}</span>
-      <span className="sec-num">{num}</span>
+    <div className="section__header reveal">
+      <span className="section__num">{num}</span>
+      <h2 className="section__title">{title}</h2>
+      <div className="section__rule" />
     </div>
-  )
+  );
 }
